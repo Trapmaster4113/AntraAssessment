@@ -1,0 +1,25 @@
+.searchbar {
+    align-items: center;
+    border-radius:50px;
+    margin: 0;
+}
+input {
+    align-items: center;
+    border-radius:20px;
+    height:30px;
+    width:300px;
+    padding-right:35px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    outline: none;
+}
+.emoji {
+    margin-left: -15px;
+}
+input::placeholder {
+    color:lightgray;
+}
+input:focus {
+    border-color: #4a90d9;
+}
